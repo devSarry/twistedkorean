@@ -1,0 +1,92 @@
+//Korean Font
+@font-face {
+	font-family: "break";
+	src: url('../fonts/365break.ttf');
+}
+
+// Misc.
+	$misc: (
+	);
+
+// Duration.
+	$duration: (
+		transition:			0.2s
+	);
+
+// Size.
+	$size: (
+		border-radius:		6px,
+		border-width:		1px,
+		element-height:		2.75em,
+		element-margin:		2em
+	);
+
+// Font.
+	$font: (
+		family:				(Sniglet, Helvetica, sans-serif),
+		family-headline:	(break),
+		family-fixed:		('Courier New', monospace),
+		weight:				normal,
+		weight-bold:		bold
+	);
+
+// Palette.
+	$palette: (
+		bg:					#fefefe,
+		fg: 				#400013,
+		fg-bold:			#828282,
+		fg-light:			#e0e0e0,
+		border:				#e6e6e6,
+		border-bg:			rgba(144,144,144,0.075),
+		border2:			#d6d6d6,
+		border2-bg:			rgba(144,144,144,0.15),
+
+		accent1: (
+			bg:				#4696e5,
+			fg:				mix(#4696e5, #ffffff, 25%),
+			fg-bold:		#ffffff,
+			fg-light:		mix(#4696e5, #ffffff, 40%),
+			border:			rgba(255,255,255,0.25),
+			border-bg:		rgba(255,255,255,0.075),
+			border2:		rgba(255,255,255,0.5),
+			border2-bg:		rgba(255,255,255,0.2),
+			invert:			true
+		),
+
+		accent2: (
+			bg:				#FFFFDD,
+			fg:				#999999,
+			fg-bold:		#828282,
+			fg-light:		#e0e0e0,
+			border:			#e6e6e6,
+			border-bg:		rgba(144,144,144,0.075),
+			border2:		#d6d6d6,
+			border2-bg:		rgba(144,144,144,0.15),
+			invert:			false
+		),
+
+		accent3: (
+			bg:				#FEFFEF,
+			fg: 			#400013,
+			fg-bold:		#828282,
+			fg-light:		#b0b0b0,
+			border:			#d6d6d6,
+			border-bg:		rgba(144,144,144,0.075),
+			border2:		#c6c6c6,
+			border2-bg:		rgba(144,144,144,0.15),
+			invert:			false
+		),
+		accent4: (
+			bg:				#EFFFE7,
+			fg: 			#0B0E10,
+			fg-bold:		#2B3A42,
+			fg-light:		#12246B,
+			border:			#d6d6d6,
+			border-bg:		rgba(144,144,144,0.075),
+			border2:		#c6c6c6,
+			border2-bg:		rgba(144,144,144,0.15),
+			invert:			false
+		)
+
+
+	);
