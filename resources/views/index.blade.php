@@ -28,7 +28,7 @@
         <h1><a href="#">Korean Twist</a></h1>
         <p>A kimbap and Korean donut POP UP restaurant!</p>
         <ul class="actions">
-            <li><a href="#three" class="button special icon fa-envelope">Sign Up</a></li>
+            <li><a href="#four" class="button special icon fa-envelope scrolly">Sign Up</a></li>
             <li><a href="#one" class="button icon fa-chevron-down scrolly">Learn More</a></li>
         </ul>
     </div>
@@ -85,7 +85,7 @@
     </header>
 </section>
 
-<section id="two" class="wrapper style2">
+<section id="three" class="wrapper style2">
     <div class="inner alt">
         <section class="spotlight">
             <div class="row uniform">
