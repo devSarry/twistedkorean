@@ -86,23 +86,18 @@
 </section>
 
 <section id="three" class="wrapper style2">
-    <div class="inner alt">
-        <section class="spotlight">
+    <div class="inner">
+
             <div class="row uniform">
-                <div class="6u">
+                <div class="6u 12u$(small)">
                     <img src="images/forumlogo.png" alt="">
                     <h3><a href="https://www.facebook.com/events/774051872725063/">Join our event on facebook</a></h3>
                 </div>
-                <div class="6u">
+                <div class="6u 12u$(small)">
                     <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-                    <div style='overflow:hidden;height:360px;width:700px;'>
-                        <div id='gmap_canvas' style='height:360px;width:700px;'></div>
-                        <div>
-                            <small><a href="http://embedgooglemaps.com">embed google maps</a></small>
-                        </div>
-                        <div>
-                            <small><a href="http://www.autohuren.world/locaties/ibiza/">auto huren ibiza</a></small>
-                        </div>
+                    <div style='overflow:hidden;height:360px;width:100%;'>
+                        <div id='gmap_canvas' style='height:360px'></div>
+
                         <style>#gmap_canvas img {
                                 max-width: none !important;
                                 background: none !important
@@ -130,7 +125,7 @@
                         google.maps.event.addDomListener(window, 'load', init_map);</script>
                 </div>
             </div>
-        </section>
+
     </div>
 </section>
 
