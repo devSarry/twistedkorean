@@ -24,6 +24,7 @@
     <div class="content">
         <div class="date-special">
             <h1>May 21 <span class="super">st</span>!</h1>
+            <h2>11:00 - 16:00</h2>
         </div>
         <h1><a href="#">Korean Twist</a></h1>
         <p>A kimbap and Korean donut POP UP restaurant!</p>

@@ -2872,12 +2872,13 @@ table.alt tbody tr td {
     border-color: #d6d6d6; }
   #header hr {
     border-bottom-color: #d6d6d6; }
-  #header .date-special h1 {
+  #header .date-special h1, #header .date-special h2 {
     text-shadow: -5px -5px 0 #000, -5px -4px 0 #000, -5px -3px 0 #000, -5px -2px 0 #000, -5px -1px 0 #000, -5px 0px 0 #000, -5px 1px 0 #000, -5px 2px 0 #000, -5px 3px 0 #000, -5px 4px 0 #000, -5px 5px 0 #000, -4px -5px 0 #000, -4px -4px 0 #000, -4px -3px 0 #000, -4px -2px 0 #000, -4px -1px 0 #000, -4px 0px 0 #000, -4px 1px 0 #000, -4px 2px 0 #000, -4px 3px 0 #000, -4px 4px 0 #000, -4px 5px 0 #000, -3px -5px 0 #000, -3px -4px 0 #000, -3px -3px 0 #000, -3px -2px 0 #000, -3px -1px 0 #000, -3px 0px 0 #000, -3px 1px 0 #000, -3px 2px 0 #000, -3px 3px 0 #000, -3px 4px 0 #000, -3px 5px 0 #000, -2px -5px 0 #000, -2px -4px 0 #000, -2px -3px 0 #000, -2px -2px 0 #000, -2px -1px 0 #000, -2px 0px 0 #000, -2px 1px 0 #000, -2px 2px 0 #000, -2px 3px 0 #000, -2px 4px 0 #000, -2px 5px 0 #000, -1px -5px 0 #000, -1px -4px 0 #000, -1px -3px 0 #000, -1px -2px 0 #000, -1px -1px 0 #000, -1px 0px 0 #000, -1px 1px 0 #000, -1px 2px 0 #000, -1px 3px 0 #000, -1px 4px 0 #000, -1px 5px 0 #000, 0px -5px 0 #000, 0px -4px 0 #000, 0px -3px 0 #000, 0px -2px 0 #000, 0px -1px 0 #000, 0px 0px 0 #000, 0px 1px 0 #000, 0px 2px 0 #000, 0px 3px 0 #000, 0px 4px 0 #000, 0px 5px 0 #000, 1px -5px 0 #000, 1px -4px 0 #000, 1px -3px 0 #000, 1px -2px 0 #000, 1px -1px 0 #000, 1px 0px 0 #000, 1px 1px 0 #000, 1px 2px 0 #000, 1px 3px 0 #000, 1px 4px 0 #000, 1px 5px 0 #000, 2px -5px 0 #000, 2px -4px 0 #000, 2px -3px 0 #000, 2px -2px 0 #000, 2px -1px 0 #000, 2px 0px 0 #000, 2px 1px 0 #000, 2px 2px 0 #000, 2px 3px 0 #000, 2px 4px 0 #000, 2px 5px 0 #000, 3px -5px 0 #000, 3px -4px 0 #000, 3px -3px 0 #000, 3px -2px 0 #000, 3px -1px 0 #000, 3px 0px 0 #000, 3px 1px 0 #000, 3px 2px 0 #000, 3px 3px 0 #000, 3px 4px 0 #000, 3px 5px 0 #000, 4px -5px 0 #000, 4px -4px 0 #000, 4px -3px 0 #000, 4px -2px 0 #000, 4px -1px 0 #000, 4px 0px 0 #000, 4px 1px 0 #000, 4px 2px 0 #000, 4px 3px 0 #000, 4px 4px 0 #000, 4px 5px 0 #000, 5px -5px 0 #000, 5px -4px 0 #000, 5px -3px 0 #000, 5px -2px 0 #000, 5px -1px 0 #000, 5px 0px 0 #000, 5px 1px 0 #000, 5px 2px 0 #000, 5px 3px 0 #000, 5px 4px 0 #000, 5px 5px 0 #000;
     color: #F06A21;
-    transform: translateX(-30vw) rotate(-17deg); }
+    transform: translateX(-30vw) rotate(-17deg);
+    margin-top: -1em; }
     @media screen and (max-width: 736px) {
-      #header .date-special h1 {
+      #header .date-special h1, #header .date-special h2 {
         transform: none; } }
   #header .date-special .super {
     font-size: 0.5em;

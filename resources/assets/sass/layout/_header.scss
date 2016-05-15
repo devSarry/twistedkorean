@@ -25,13 +25,14 @@
 		min-height: 35em;
 
 		.date-special {
-			h1 {
+			h1 , h2{
 				@include stroke(5, #000);
 				color: #F06A21;
 				transform: translateX(-30vw) rotate(-17deg);
 				@include breakpoint(small) {
 					transform: none;
 				}
+				margin-top: -1em;
 
 			}
 			.super{
